@@ -1,0 +1,57 @@
+html *{
+  font-family: "europa";
+  font-style: bold;
+  font-weight: $regular;
+}
+
+h1 {
+
+    font-size: calc(4vw + 4vh + 2vmin);
+    font-weight: $bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: $header-size;
+    font-weight: $regular;
+}
+
+h3,
+p {
+    font-size: $body-size;
+    font-weight: $regular;
+}
+
+a{
+  font-weight: $light;
+}
+
+.about p {
+    font-size: $body-size;
+    font-weight: $light;
+    font-size: $body-size;
+    line-height: 1.6;
+}
+
+
+/*
+===================================
+    MEDIA QUERIES
+===================================
+*/
+
+@media (max-width: 960px) {
+
+
+}
+
+@media (max-width: 760px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+
+
+}
